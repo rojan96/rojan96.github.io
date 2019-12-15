@@ -88,7 +88,10 @@ a:hover {
     h2 {
         -webkit-transform: translateX(-100%);
         transform: translateX(-100%);
-        color: white;
+        color: White;
+    }
+    .main h1{
+        font-size: 1.7em;
     }
 }
 
@@ -97,7 +100,10 @@ a:hover {
     h2 {
         -webkit-transform: translateX(-300px);
         transform: translateX(-300px);
-        color: white;
+        color: White;
+    }
+    .main h1{
+        font-size: 1.7em;
     }
 }
 
@@ -172,18 +178,7 @@ footer {
     width: 100%;
     left: -50%;
     position: absolute;
-    background: -webkit-linear-gradient(
-            top right,
-            hsl(195, 100%, 25%),
-            hsl(195, 100%, 30%)
-    )
-    hsl(195, 100%, 25%);
-    background: linear-gradient(
-            to bottom left,
-            hsl(195, 100%, 25%),
-            hsl(195, 100%, 30%)
-    )
-    hsl(195, 100%, 25%);
+    background: #435EA7;
     text-align: right;
     color: white;
 

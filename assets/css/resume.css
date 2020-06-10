@@ -134,6 +134,10 @@ main {
   align-items: flex-end; /* Baseline align content */
 }
 
+section {
+  padding-bottom: 5px;
+}
+
 section .left {
   display: flex;
   align-items: flex-end;

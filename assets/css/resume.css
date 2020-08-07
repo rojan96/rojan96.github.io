@@ -82,7 +82,6 @@ header {
     height: fit-content;
 
     margin-top: 5mm;
-    margin-bottom: 5mm;
     padding-bottom: 4mm;
 
     /* Horizontal divider */
@@ -132,7 +131,7 @@ main {
 }
 
 section {
-    padding-bottom: 5px;
+    padding: 5px;
 }
 
 section .left {
@@ -149,6 +148,11 @@ section .right {
 
 section .item {
     margin-top: var(--item-spacing);
+}
+
+#objective {
+    padding-top: 5px;
+    margin: 0;
 }
 
 #skills h2,

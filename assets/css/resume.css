@@ -14,6 +14,10 @@
     flex-flow: column nowrap;
 }
 
+#work-experience {
+    text-align: center;
+}
+
 body,
 html {
     height: 100%;
@@ -173,4 +177,8 @@ section .item {
 #cover-letter-body p {
     padding: 0px;
     letter-spacing: 2px;
+}
+
+section h2 {
+    text-align: center;
 }
